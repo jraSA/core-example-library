@@ -1,4 +1,4 @@
-import myHelloWorldFunction from './myHelloWorldFunction';
+import myHelloWorldFunction from '../myHelloWorldFunction';
 
 describe('myHelloWorldFunction simple test', () => {
   it.each`
