@@ -9,7 +9,11 @@
     "test:coverage": "jest --coverage",
     "test-build": "npm run build && node test-build.js",
     "ci": "npm run build &&  npm run test:coverage && wait",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "prepublishOnly": "npm run ci",
+    "publish-major": "npm version major && npm publish",
+    "publish-minor": "npm version minor && npm publish",
+    "publish-patch": "npm version patch && npm publish"
   },
   "keywords": [],
   "author": "",
