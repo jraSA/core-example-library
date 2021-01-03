@@ -1,5 +1,8 @@
 # core-example-library
 
+![CI/CD](https://github.com/jraSA/core-example-library/workflows/core-example-library%20pipeline/badge.svg)
+[![codecov](https://codecov.io/gh/jraSA/core-example-library/branch/master/graph/badge.svg?token=7QFE1W5SDL)](https://codecov.io/gh/jraSA/core-example-library)
+![License](https://img.shields.io/github/license/dyarleniber/react-workflow-gh-actions)
 ## Table of Contents
 
 - [About](#about)
