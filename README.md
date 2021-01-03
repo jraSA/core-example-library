@@ -9,7 +9,7 @@
 
 ## About <a name = "about"></a>
 
-A very simple example of a core library using NodeJS and TypeScript. This could be used as a boilerplate for more complex project.
+A very simple example of a core library using NodeJS and TypeScript. This could be used as a boilerplate for more complex projects.
 
 
 ## Running tests  <a name = "running_test"></a>
