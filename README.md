@@ -30,7 +30,7 @@ npm run test-build
 
 ## Publishing <a name = "publishing"></a>
 
-The `package.json` is configured to run `npm run ci` before publish by using `prepublishOnly`.
+The `package.json` is configured to run `npm run ci` before publish by using `prepublishOnly`. This a list of commands for local publish.
 ### Publish patch
 ```
 npm run publish-patch
