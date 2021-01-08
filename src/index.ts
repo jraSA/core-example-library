@@ -1,4 +1,4 @@
 import myHelloWorldFunction from './myHelloWorldFunction';
-import getAllFriends from './getAllFriends';
+import getAllFriends, { Friend } from './getAllFriends';
 
-export { myHelloWorldFunction, getAllFriends };
+export { myHelloWorldFunction, getAllFriends, Friend };
