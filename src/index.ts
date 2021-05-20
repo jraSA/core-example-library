@@ -1,4 +1,4 @@
-import myHelloWorldFunction from './myHelloWorldFunction';
-import getAllFriends, { Friend } from './getAllFriends';
+import { TodosClient, Todo } from "./TodoClient";
+import { UsersClient, User } from "./UserClient";
 
-export { myHelloWorldFunction, getAllFriends, Friend };
+export { TodosClient, Todo, UsersClient, User };

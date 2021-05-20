@@ -1,5 +1,7 @@
 const assert = require('assert');
-const { myHelloWorldFunction, getAllFriends, Friend } = require('./lib');
+const { UsersClient, TodosClient} = require('./lib');
 
-assert.deepStrictEqual(typeof myHelloWorldFunction, 'function');
-assert.deepStrictEqual(typeof getAllFriends, 'function');
+assert.deepStrictEqual(typeof UsersClient, 'object');
+assert.deepStrictEqual(typeof TodosClient, 'object');
+
+TodosClient.get().then( result => console.log(result));
